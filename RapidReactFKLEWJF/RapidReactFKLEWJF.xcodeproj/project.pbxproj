@@ -22,6 +22,11 @@
 		9EE08ABA27C34A1200B78D80 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE08AB427C34A1200B78D80 /* Global.swift */; };
 		9EE08ABB27C34A1200B78D80 /* ProblemsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE08AB527C34A1200B78D80 /* ProblemsTableViewController.swift */; };
 		9EE08ABC27C34A1200B78D80 /* TeleOpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE08AB627C34A1200B78D80 /* TeleOpViewController.swift */; };
+		EA0AE61A27C34FBC00F21DC5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA0AE61927C34FBC00F21DC5 /* GoogleService-Info.plist */; };
+		EAFAEFDA27C3F51B0099EAC5 /* AppAuth in Frameworks */ = {isa = PBXBuildFile; productRef = EAFAEFD927C3F51B0099EAC5 /* AppAuth */; };
+		EAFAEFDD27C3F5690099EAC5 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = EAFAEFDC27C3F5690099EAC5 /* GoogleSignIn */; };
+		EAFAEFF027C4040D0099EAC5 /* GoogleAPIClientForRESTCore in Frameworks */ = {isa = PBXBuildFile; productRef = EAFAEFEF27C4040D0099EAC5 /* GoogleAPIClientForRESTCore */; };
+		EAFAEFF227C4040D0099EAC5 /* GoogleAPIClientForREST_Sheets in Frameworks */ = {isa = PBXBuildFile; productRef = EAFAEFF127C4040D0099EAC5 /* GoogleAPIClientForREST_Sheets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +66,7 @@
 		9EE08AB427C34A1200B78D80 /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
 		9EE08AB527C34A1200B78D80 /* ProblemsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProblemsTableViewController.swift; sourceTree = "<group>"; };
 		9EE08AB627C34A1200B78D80 /* TeleOpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeleOpViewController.swift; sourceTree = "<group>"; };
+		EA0AE61927C34FBC00F21DC5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +74,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAFAEFDA27C3F51B0099EAC5 /* AppAuth in Frameworks */,
+				EAFAEFF027C4040D0099EAC5 /* GoogleAPIClientForRESTCore in Frameworks */,
+				EAFAEFDD27C3F5690099EAC5 /* GoogleSignIn in Frameworks */,
+				EAFAEFF227C4040D0099EAC5 /* GoogleAPIClientForREST_Sheets in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,6 +133,7 @@
 				9EE08AB127C34A1100B78D80 /* ScoutingViewController.swift */,
 				9EE08AB627C34A1200B78D80 /* TeleOpViewController.swift */,
 				9EE08A8A27C349A700B78D80 /* LaunchScreen.storyboard */,
+				EA0AE61927C34FBC00F21DC5 /* GoogleService-Info.plist */,
 				9EE08A8D27C349A700B78D80 /* Info.plist */,
 			);
 			path = RapidReactFKLEWJF;
@@ -161,6 +172,12 @@
 			dependencies = (
 			);
 			name = RapidReactFKLEWJF;
+			packageProductDependencies = (
+				EAFAEFD927C3F51B0099EAC5 /* AppAuth */,
+				EAFAEFDC27C3F5690099EAC5 /* GoogleSignIn */,
+				EAFAEFEF27C4040D0099EAC5 /* GoogleAPIClientForRESTCore */,
+				EAFAEFF127C4040D0099EAC5 /* GoogleAPIClientForREST_Sheets */,
+			);
 			productName = RapidReactFKLEWJF;
 			productReference = 9EE08A7C27C349A500B78D80 /* RapidReactFKLEWJF.app */;
 			productType = "com.apple.product-type.application";
@@ -233,6 +250,11 @@
 				Base,
 			);
 			mainGroup = 9EE08A7327C349A400B78D80;
+			packageReferences = (
+				EAFAEFD827C3F51B0099EAC5 /* XCRemoteSwiftPackageReference "AppAuth-iOS" */,
+				EAFAEFDB27C3F5690099EAC5 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				EAFAEFEE27C4040D0099EAC5 /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */,
+			);
 			productRefGroup = 9EE08A7D27C349A500B78D80 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -250,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9EE08A8C27C349A700B78D80 /* LaunchScreen.storyboard in Resources */,
+				EA0AE61A27C34FBC00F21DC5 /* GoogleService-Info.plist in Resources */,
 				9EE08A8927C349A700B78D80 /* Assets.xcassets in Resources */,
 				9EE08AB027C34A0100B78D80 /* Main.storyboard in Resources */,
 			);
@@ -432,6 +455,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "SWIFT_PACKAGE=1";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -455,7 +479,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7RYBN35C6R;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RapidReactFKLEWJF/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -463,6 +487,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -483,7 +508,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7RYBN35C6R;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RapidReactFKLEWJF/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -491,6 +516,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -620,6 +646,56 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EAFAEFD827C3F51B0099EAC5 /* XCRemoteSwiftPackageReference "AppAuth-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/openid/AppAuth-iOS";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		EAFAEFDB27C3F5690099EAC5 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+		EAFAEFEE27C4040D0099EAC5 /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/google-api-objectivec-client-for-rest";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EAFAEFD927C3F51B0099EAC5 /* AppAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EAFAEFD827C3F51B0099EAC5 /* XCRemoteSwiftPackageReference "AppAuth-iOS" */;
+			productName = AppAuth;
+		};
+		EAFAEFDC27C3F5690099EAC5 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EAFAEFDB27C3F5690099EAC5 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		EAFAEFEF27C4040D0099EAC5 /* GoogleAPIClientForRESTCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EAFAEFEE27C4040D0099EAC5 /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForRESTCore;
+		};
+		EAFAEFF127C4040D0099EAC5 /* GoogleAPIClientForREST_Sheets */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EAFAEFEE27C4040D0099EAC5 /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_Sheets;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9EE08A7427C349A400B78D80 /* Project object */;
 }

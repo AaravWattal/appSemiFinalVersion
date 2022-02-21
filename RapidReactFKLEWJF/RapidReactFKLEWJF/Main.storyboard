@@ -11,7 +11,7 @@
         <!--Tele Op View Controller-->
         <scene sceneID="1Zr-8K-Gt2">
             <objects>
-                <viewController id="PQe-sR-wb0" customClass="TeleOpViewController" customModule="PersonalRapidReactApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="PQe-sR-wb0" customClass="TeleOpViewController" customModule="RapidReactFKLEWJF" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OiV-Wc-9TZ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -150,7 +150,7 @@
         <!--Auton View Controller-->
         <scene sceneID="xW7-Va-iLM">
             <objects>
-                <viewController id="CkW-qP-Twi" customClass="AutonViewController" customModule="PersonalRapidReactApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="CkW-qP-Twi" customClass="AutonViewController" customModule="RapidReactFKLEWJF" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3tK-qk-wJ0">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -307,7 +307,7 @@
         <!--Endgame View Controller-->
         <scene sceneID="XuQ-ln-mue">
             <objects>
-                <viewController id="f5I-7r-dBX" customClass="EndgameViewController" customModule="PersonalRapidReactApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="f5I-7r-dBX" customClass="EndgameViewController" customModule="RapidReactFKLEWJF" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="i5E-cm-OeJ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -488,7 +488,7 @@
         <!--Scouting View Controller-->
         <scene sceneID="3VG-eu-rRd">
             <objects>
-                <viewController id="4IC-CD-2DX" customClass="ScoutingViewController" customModule="PersonalRapidReactApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="4IC-CD-2DX" customClass="ScoutingViewController" customModule="RapidReactFKLEWJF" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uRw-I4-fm8">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -603,7 +603,7 @@
         <!--Problems Table View Controller-->
         <scene sceneID="2Cy-BK-Sca">
             <objects>
-                <tableViewController storyboardIdentifier="ProblemsTableView" id="nzX-k4-LLm" customClass="ProblemsTableViewController" customModule="PersonalRapidReactApp" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="ProblemsTableView" id="nzX-k4-LLm" customClass="ProblemsTableViewController" customModule="RapidReactFKLEWJF" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="886-1I-iYA">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -615,7 +615,7 @@
                             <nil key="highlightedColor"/>
                         </label>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="problemCell" id="h6c-gl-EzP" customClass="ProblemTableViewCell" customModule="PersonalRapidReactApp" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="problemCell" id="h6c-gl-EzP" customClass="ProblemTableViewCell" customModule="RapidReactFKLEWJF" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="88.5" width="414" height="31"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="h6c-gl-EzP" id="7Js-MF-72B">
@@ -658,7 +658,7 @@
                                     <outlet property="problemToggle" destination="CMg-iw-UN3" id="fxb-wF-Lcf"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="addProblemCell" id="Bga-0U-Emk" customClass="AddProblemTableViewCell" customModule="PersonalRapidReactApp" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="addProblemCell" id="Bga-0U-Emk" customClass="AddProblemTableViewCell" customModule="RapidReactFKLEWJF" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="119.5" width="414" height="51"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Bga-0U-Emk" id="wGm-W0-pXH">
@@ -684,7 +684,7 @@
                                     <outlet property="addProblemButton" destination="IYX-hf-OBT" id="6Qa-Z2-ei9"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="submitCell" id="10L-nX-Nbk" userLabel="submitCell" customClass="AddProblemTableViewCell" customModule="PersonalRapidReactApp" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="submitCell" id="10L-nX-Nbk" userLabel="submitCell" customClass="AddProblemTableViewCell" customModule="RapidReactFKLEWJF" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="170.5" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="10L-nX-Nbk" id="4kN-e3-K1q">
@@ -727,6 +727,74 @@
             </objects>
             <point key="canvasLocation" x="1645" y="759"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="4Hc-hp-gLL">
+            <objects>
+                <viewController id="fc0-P6-ghD" customClass="ViewController" customModule="RapidReactFKLEWJF" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iCP-LM-ufh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="5KD-tS-OjA">
+                                <rect key="frame" x="87" y="144" width="240" height="608"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EKl-BL-0z4">
+                                        <rect key="frame" x="46" y="0.0" width="148.5" height="426"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Sign in with Google"/>
+                                        <connections>
+                                            <action selector="signInWithGoogle:" destination="fc0-P6-ghD" eventType="touchUpInside" id="Q9J-ut-o6J"/>
+                                        </connections>
+                                    </button>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="nZL-r2-w9Z">
+                                        <rect key="frame" x="0.0" y="434" width="240" height="96"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <color key="textColor" systemColor="labelColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VEx-yC-HnT">
+                                        <rect key="frame" x="66.5" y="538" width="107" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Append data"/>
+                                        <connections>
+                                            <action selector="onAppendDataButtonPress:" destination="fc0-P6-ghD" eventType="touchUpInside" id="9vc-xF-k2M"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" role="destructive" translatesAutoresizingMaskIntoConstraints="NO" id="KPG-fF-Une">
+                                        <rect key="frame" x="82.5" y="577" width="75.5" height="31"/>
+                                        <color key="tintColor" systemColor="systemRedColor"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Log Out"/>
+                                        <connections>
+                                            <action selector="onLogoutPress:" destination="fc0-P6-ghD" eventType="touchUpInside" id="N27-zu-UMW"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="nZL-r2-w9Z" firstAttribute="leading" secondItem="5KD-tS-OjA" secondAttribute="leadingMargin" id="fjh-8X-n8S"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vOo-Vv-lRU"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="5KD-tS-OjA" firstAttribute="centerX" secondItem="iCP-LM-ufh" secondAttribute="centerX" id="2H3-xc-ajz"/>
+                            <constraint firstItem="5KD-tS-OjA" firstAttribute="top" secondItem="vOo-Vv-lRU" secondAttribute="top" constant="100" id="QLD-cK-die"/>
+                            <constraint firstItem="5KD-tS-OjA" firstAttribute="leading" secondItem="vOo-Vv-lRU" secondAttribute="leading" constant="87" id="fP5-43-XhC"/>
+                            <constraint firstItem="5KD-tS-OjA" firstAttribute="centerY" secondItem="iCP-LM-ufh" secondAttribute="centerY" id="gAR-bL-ae0"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="appendDataButton" destination="VEx-yC-HnT" id="Yj4-A3-7j4"/>
+                        <outlet property="logoutButton" destination="KPG-fF-Une" id="F2F-U1-DG9"/>
+                        <outlet property="output" destination="nZL-r2-w9Z" id="A2c-2d-GHa"/>
+                        <outlet property="signInButton" destination="EKl-BL-0z4" id="hvB-yb-IYy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dbG-5p-D7H" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="66"/>
+        </scene>
     </scenes>
     <resources>
         <systemColor name="labelColor">
@@ -743,6 +811,9 @@
         </systemColor>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
