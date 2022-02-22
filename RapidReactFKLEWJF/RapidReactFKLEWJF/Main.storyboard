@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="4IC-CD-2DX">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="fc0-P6-ghD">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
@@ -490,17 +490,17 @@
             <objects>
                 <viewController id="4IC-CD-2DX" customClass="ScoutingViewController" customModule="RapidReactFKLEWJF" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uRw-I4-fm8">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Scouting" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E2B-ql-na9">
-                                <rect key="frame" x="147" y="94" width="120" height="39"/>
+                                <rect key="frame" x="147" y="50" width="120" height="39"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="32"/>
                                 <color key="textColor" systemColor="secondarySystemBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Vyz-Ot-ZCP">
-                                <rect key="frame" x="209" y="211" width="122" height="34"/>
+                                <rect key="frame" x="209" y="167" width="122" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="122" id="4Ij-zf-KAk"/>
                                     <constraint firstAttribute="height" constant="34" id="Yfx-rY-uWQ"/>
@@ -509,7 +509,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Team #:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pfE-GS-pEV">
-                                <rect key="frame" x="88" y="211" width="88" height="32"/>
+                                <rect key="frame" x="88" y="167" width="88" height="32"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="32" id="er7-Eo-wB0"/>
                                     <constraint firstAttribute="width" constant="88" id="hEh-3P-ASm"/>
@@ -519,7 +519,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ecL-3S-srJ">
-                                <rect key="frame" x="160.5" y="323" width="93" height="42"/>
+                                <rect key="frame" x="160.5" y="279" width="93" height="42"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="93" id="gdn-xx-4rE"/>
                                     <constraint firstAttribute="height" constant="42" id="ntv-Bn-WyL"/>
@@ -538,7 +538,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rcn-Ws-Vt2">
-                                <rect key="frame" x="78" y="403" width="64.5" height="31"/>
+                                <rect key="frame" x="78" y="359" width="64.5" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="teleop"/>
                                 <connections>
@@ -546,7 +546,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s8S-DU-IMF">
-                                <rect key="frame" x="80" y="459" width="61" height="31"/>
+                                <rect key="frame" x="80" y="415" width="61" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="auton"/>
                                 <connections>
@@ -554,7 +554,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NxX-ip-Nqi">
-                                <rect key="frame" x="251.5" y="403" width="84.5" height="31"/>
+                                <rect key="frame" x="251.5" y="359" width="84.5" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="endgame"/>
                                 <connections>
@@ -562,7 +562,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CzJ-ym-u72">
-                                <rect key="frame" x="245.5" y="459" width="84.5" height="31"/>
+                                <rect key="frame" x="245.5" y="415" width="84.5" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="problems"/>
                                 <connections>
@@ -774,6 +774,15 @@
                                     <constraint firstItem="nZL-r2-w9Z" firstAttribute="leading" secondItem="5KD-tS-OjA" secondAttribute="leadingMargin" id="fjh-8X-n8S"/>
                                 </constraints>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HrR-dR-bZQ">
+                                <rect key="frame" x="166" y="801" width="84" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Main app"/>
+                                <connections>
+                                    <segue destination="4IC-CD-2DX" kind="show" id="HCt-e6-VPZ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vOo-Vv-lRU"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
